@@ -154,3 +154,17 @@ body {
     }
   }
 }
+
+@media screen and (max-width: 400px) {
+    nav ul li a {
+      font-size: 8px;
+    }
+
+    .div-one div {
+      width: 100%;
+    }
+
+    .current-item {
+      display: none;
+    }
+}
